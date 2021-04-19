@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily Journal</title>
+  </head>
+  <body class="body">
+    <section class="container">
+        <h2 class="title">Daily Journal</h2>
+      <form class="form__container" action="">
+        <fieldset class="date__entry">
+          <label for="journalDate">Date of entry</label>
+          <input type="date" name="journalDate" id="journalDate" />
+        </fieldset>
+      </form>
+      <form class="form__container" action="">
+        <fieldset class="concepts">
+          <label for="conceptsCovered">Concepts Covered</label>
+          <input type="text" name="conceptsCovered" id="conceptsCovered" />
+        </fieldset>
+      </form>
+      <form class="form__container" action="">
+        <fieldset class="journal__entry">
+          <label for="journalEntry">Journal Entry</label>
+          <input type="text" name="journalEntry" id="journalEntry" />
+        </fieldset>
+      </form>
+      <form class="form__container" action="">
+        <fieldset class="mood">
+          <label for="moodOfTheDay">Mood Of The Day</label>
+          <select class="dropdown">
+            <div id="myDropdown" class="dropdown-content">
+              <option value="sad">sad</option>
+              <option value="happy">happy</option>
+              <option value="mad">mad</option>
+              <option value="confused">confused</option>
+            </div>
+          </select>
+          <button onclick="" class="dropdown">send</button>
+        </fieldset>
+      </form>
+    </section>
+  </body>
+</html>

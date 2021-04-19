@@ -1,0 +1,61 @@
+
+.body {
+    background-image: url('https://wallpaperaccess.com/full/25094.jpg');
+}
+
+.title {
+  
+    font-family: 'Alegreya Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 96px;
+    /* identical to box height */
+    
+    text-align: center;
+    text-decoration-line: underline;
+    
+    color: #A08E77;
+    
+}
+
+.container {
+    position: sticky;
+    width: 752px;
+    height: 663px;
+    left: 313px;
+    top: 39px;
+    background: #CA9E8C;
+    border-radius: 10px;
+}
+
+.form__container {
+    font-family: 'Alegreya Sans', sans-serif;
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    margin: 25px;
+    min-inline-size: min-content;
+    border-width: 2px solid black;
+    border-style: groove;
+    background: #ABB2B4;
+    ;
+}
+
+.date__entry {
+    
+}
+
+.concepts {
+
+}
+
+.journal__entry {
+
+}
+
+.mood {
+
+}
+
+
