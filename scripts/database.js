@@ -22,7 +22,7 @@ const database = {
             mood: "Confused"
         },
         {
-            id: 4
+            id: 4,
             date: "4/19/2021",
             concept: "Wireframing",
             entry: "I had a lot of fun designing my daily journal in figma.",
