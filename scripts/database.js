@@ -32,6 +32,6 @@ const database = {
 }
 
 export const getJournalEntries = () => {
-    const copyOfDate = [...database.entries]
+    const copyOfData = [...database.entries]
     return copyOfData
 }
